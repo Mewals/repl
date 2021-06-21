@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Index</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+<ul>
+  <li><a href="index.html">Index</a></li>
+  <li><a href="page2.html">The Bears?</a></li>
+  <li><a href="iframe.html">Ver más</a></li>
+</ul>
+
+<br>
+
+<div class="image-container">
+  <div class="text">WELCOME</div>
+</div>
+
+<br>
+<br>
+<br>
+
+<center><button onclick="myFunction()" class="button">Click Me!</button></center>
+
+<div id="snackbar"><b>Hello World!</b></div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("snackbar");
+  x.className = "show";
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
+</script>
+
+<br>
+
+</body>
+</html>
