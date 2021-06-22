@@ -39,9 +39,9 @@ p, h2{
 /*index*/
 .image-container {
   background-image: url("https://cdnb.artstation.com/p/assets/images/images/027/825/781/large/chalaria-liz-jeff-the-kill.jpg?1592664926");
-  background-size: cover;
-  position: relative;
-  height: 500px;
+  
+  width: 1000px;
+  height: 2000px;
 }
 
 .text {
